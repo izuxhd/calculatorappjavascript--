@@ -1,0 +1,117 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calculator {
+  text-align: center;
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px 0;
+}
+
+.row button {
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+}
+
+
+
+Add your preferred font-family and background color
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Calculator container styling
+
+
+
+
+
+/* Add your preferred font-family and background color */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Calculator container styling */
+.calculator {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Display area styling */
+.display {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button styling */
+.button {
+  width: 50px;
+  height: 50px;
+  font-size: 1em;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Operator button styling */
+.operator {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.operator:hover {
+  background-color: #217dbb;
+}
+
+/* Equal button styling */
+.equal {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+.equal:hover {
+  background-color: #27ae60;
+}
+
+/* Clear button styling */
+.clear {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.clear:hover {
+  background-color: #c0392b;
+}
+
+
+
+
+
+

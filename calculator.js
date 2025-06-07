@@ -39,5 +39,11 @@ function deleteLast() {
     currentInput = currentInput.slice(0, -1);
     updateDisplay();
 }
+window.appendNumber = appendNumber;
+window.appendOperator = appendOperator;
+window.calculate = calculate;
+window.clearDisplay = clearDisplay;
+window.calculatePercentage = calculatePercentage;
+window.deleteLast = deleteLast;
 
 

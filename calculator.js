@@ -1,15 +1,15 @@
 let currentInput = '';
-
+// deno-lint-ignore no-unused-vars
 function appendNumber(number) {
     currentInput += number;
     updateDisplay();
 }
-
+// deno-lint-ignore no-unused-vars
 function appendOperator(operator) {
     currentInput += operator;
     updateDisplay();
 }
-
+// deno-lint-ignore no-unused-vars
 function calculate() {
     try {
         currentInput = eval(currentInput).toString();
@@ -24,7 +24,7 @@ function clearDisplay() {
     currentInput = '';
     updateDisplay();
 }
-
+// deno-lint-ignore no-unused-vars
 function calculatePercentage() {
     currentInput = (parseFloat(currentInput) / 100).toString();
     updateDisplay();
@@ -33,12 +33,14 @@ function calculatePercentage() {
 function updateDisplay() {
     document.getElementById('display').value = currentInput;
 }
-// ... (previous JavaScript code)
 
+// deno-lint-ignore no-unused-vars
 function deleteLast() {
     currentInput = currentInput.slice(0, -1);
     updateDisplay();
 }
+// deno-lint-ignore no-unused-vars
+
 window.appendNumber = appendNumber;
 window.appendOperator = appendOperator;
 window.calculate = calculate;
